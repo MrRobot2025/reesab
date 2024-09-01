@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
 .greeting{
     font-size: 72px;
     background: linear-gradient(to right, rgb(132, 204, 22), rgb(59, 130, 246));
@@ -32,3 +34,34 @@
       color: #1da1f2; /* return to initial color */
     }
   }
+
+  .typing {
+    font-weight: 200;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2px;
+    width: 0;
+    margin-left: 1rem;
+    border-right: 2px solid rgba(255, 255, 255, 0.409);
+    animation: type 6s steps(46) 2s forwards infinite, blink 0.5s steps(1) infinite;
+    color:#ec6442c8;
+    letter-spacing: 1.5px;
+  }
+  
+  @keyframes type {
+    to {
+      width: 46ch;
+    }
+  }
+  
+  @keyframes blink {
+    0%,
+    100% {
+      border-color: transparent;
+    }
+  
+    50% {
+      border-color: #ffffff62;
+    }
+  }
+  
