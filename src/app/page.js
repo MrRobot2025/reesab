@@ -1,9 +1,12 @@
-import "./globals.css"
-import App from "@/page/App";
+import NavBar from "@/components/navBar";
+import Footer from "@/components/footer";
+import Hero from "@/components/hero";
 export default function page() {
   return (
     <div className="main">
-      <App/>
+      <NavBar/>
+        <Hero/>
+      <Footer/>
     </div>
   );
 }

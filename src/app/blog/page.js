@@ -1,14 +1,14 @@
-import Hero from "@/components/hero";
+"use client";
 import NavBar from "@/components/navBar";
 import Footer from "@/components/footer";
 import Blog from "@/components/blog";
-export default function App() {
+
+export default function blogPage() {
     return (
       <div className="home">
         <NavBar/>
-        <Hero/>
+        <Blog/>
         <Footer/>
       </div>
     );
   }
-  

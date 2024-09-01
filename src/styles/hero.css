@@ -15,7 +15,7 @@
 }
 .x{
     font-size: 24px;
-    animation: blink 1s infinite;
+    animation: blinking 1s infinite;
 }
 .hero a{
     color:#1da1f2;
@@ -23,7 +23,7 @@
 
 
 
-@keyframes blink {
+@keyframes blinking {
     0% {
       color: #1da1f2; /* initial color */
     }
@@ -39,7 +39,7 @@
     font-weight: 200;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 2px;
+    font-size: 5px;
     width: 0;
     margin-left: 1rem;
     border-right: 2px solid rgba(255, 255, 255, 0.409);
