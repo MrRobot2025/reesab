@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import Emoji from "react-emoji-render";
+import Link from 'next/link';
 export default function Hero() {
     return (
       <div className="hero">
@@ -12,7 +12,7 @@ export default function Hero() {
         <p className="typing">&quot;Now I am become Death, the Destroyer of Worlds&quot;</p>
         <p>Catch a glimpse of my life and latest updates in my latest <a href="https://x.com/reeeesab">tweet!</a> <span className="x">𝕏</span></p>
         <p>This website is for recording life. Feel free to <a href="">get to know me better.</a></p>
-        <p><a href="#">surprise here!!!!</a></p>
+        <Link href="/surprise">surprise here!!!!</Link>
       </div>
     );
   }
