@@ -1,13 +1,9 @@
-import Hero from "@/components/hero";
 import "./globals.css"
-import NavBar from "@/components/navBar";
-import Footer from "@/components/footer";
-export default function Home() {
+import App from "@/page/App";
+export default function page() {
   return (
     <div className="main">
-      <NavBar/>
-      <Hero/>
-      <Footer/>
+      <App/>
     </div>
   );
 }
