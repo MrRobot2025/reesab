@@ -4,9 +4,9 @@ export default function Hero() {
     return (
       <div className="hero">
         <h1 className="greeting">Hi Friends,<br></br> कथमस्ति भवान्!</h1>
-        <p>Welcome! I&apos;m Rishabh Singh.👋</p>
+        <p>Welcome! I&apos;m Rishabh Singh👋.&quot;REESAB&quot; is the abbreviation I use on social media.</p>
         
-        <p>I&apos;m from India 🇮🇳. I currently stay in Bengaluru.</p>
+        <p>I&apos;m from India 🇮🇳. I currently work in Bengaluru.</p>
         <br></br>
         <p>I have been working as a Software Engineer 👨🏻‍💻 since March 2024.</p>
         <p>You can view my work from <a href="#">here</a>, or <a href="#">download</a> my resume.</p>
