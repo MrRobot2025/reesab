@@ -5,15 +5,20 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.972);
-    margin: 20px 0 20px 0;
-    transition: transform 0.3s ease-out; /* Add transition property */
-  }
-  
-  .blog-card:hover {
-    transform: scale(1.05); /* Scale slightly on hover */
-  }
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+
+.blog-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+
+
 
 .blog-card img {
     width: 140px;
@@ -50,7 +55,7 @@
 }
 
 .blog-title{
-    color: #212121;
+    color: #ffffff;
 }
 
 .link-blog{

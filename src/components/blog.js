@@ -15,7 +15,7 @@ export default function Blog() {
         <BlogCard
         imageSrc={image2}
         title="How to make a CRUD Application in Springboot MVC?"
-        postedDate="date"
+        postedDate="09-July-2024"
       />
         
       </div>
