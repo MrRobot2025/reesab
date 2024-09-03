@@ -47,6 +47,11 @@
     color:#ec6442c8;
     letter-spacing: 1.5px;
   }
+
+  .surprise-button{
+    cursor: pointer;
+    color: #1da1f2;
+  }
   
   @keyframes type {
     to {

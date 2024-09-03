@@ -1,0 +1,54 @@
+.about{
+    text-align: center; 
+}
+
+.line{
+    height: 0.5px;
+    width: 896px;
+    background-color: rgba(240, 248, 255, 0.159);
+    position: relative;
+}
+
+.section{
+    width: 896px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h1{
+    color:rgba(255, 255, 255, 0.935);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+
+h2{
+    margin: 0;
+}
+
+.sch-logo{
+    width: 150px;
+    height: 120px;
+    scale: 0.9;
+}
+.school-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .sch-logo {
+    margin-right: 20px; 
+  }
+
+  .employee{
+    margin: 60px 0 30px 0;
+  }
+
+  span{
+    font-size: 12px;
+  }

@@ -5,13 +5,17 @@ import Link from "next/link";
 const ImageCard = ({ imageSrc, title, postedDate }) => {
   return (
     <Link className='link-blog' href="#">
-    <div className="blog-card">
-      <Image src={imageSrc}/>
-      <div className="blog-card-content">
-        <h2 className='blog-title'>{title}</h2>
-        <p>{postedDate}</p>
+      <div className="blog-card">
+        <Image
+          src={imageSrc}
+          alt={title}
+          className="blog-card-img"
+        />
+        <div className="blog-card-content">
+          <h2 className='blog-title'>{title}</h2>
+          <p>{postedDate}</p>
+        </div>
       </div>
-    </div>
     </Link>
   );
 };
