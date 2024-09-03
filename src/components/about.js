@@ -3,6 +3,7 @@ import Image from "next/image";
 import school1 from "../../public/image.png";
 import school2 from "../../public/kv.png";
 export default function About() {
+    //test
     return (
         <div className="about">
             <h1 className="name">Rishabh Singh</h1>
@@ -65,6 +66,7 @@ export default function About() {
                         <p><b>- Framework/library:</b> ReactJs, NextJs, SprintBoot, ExpressJs.</p>
                     </div>
                 </div>
+                
 
             </div>
             <div className="line"></div>
